@@ -18,7 +18,7 @@ const Register = () => {
         if (res === "success") {
             navigate('/');
         } else {
-            alert('user not found');
+            alert('already user exist');
         }
     }
     return (
